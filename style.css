@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root{
+    --cor-de-fundo: #111d38;
+    --azul: #14a9ff;
+    --branco: #ffff;
+    --botao-ativo: #01228d;
+    --botao-inatico: #010f3d;
+    --texto-fundo: #020930;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Poetsen One", sans-serif;
+    
+}
