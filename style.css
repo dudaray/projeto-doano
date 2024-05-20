@@ -5,7 +5,7 @@
     --azul: #14a9ff;
     --branco: #ffff;
     --botao-ativo: #01228d;
-    --botao-inatico: #010f3d;
+    --botao-inativo: #010f3d;
     --texto-fundo: #020930;
 }
 
@@ -33,9 +33,20 @@ body{
 }
 
 .titulo-pricipal span{
-    color: #14a9ff;
+    color: var(--azul);
 }
 
 .botao{
     font-family: "Poetsen One", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
 }
