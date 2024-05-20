@@ -32,4 +32,6 @@ body{
     font-size: 32px;
 }
 
-ti
+.titulo-pricipal span{
+    color: var(--azul);
+}
