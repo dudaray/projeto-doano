@@ -42,5 +42,9 @@ function atualizaCronometro(){
         }    
 }
     
-atualizaCronometro();
-setInterval(atualizaCronometro,1000);
+function começaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+
+começaCronometro();
